@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: orange;
+  z-index: 3;
+}
+
+.header_logo a img {
+  width: 50px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header_nav_item {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  transition: all 0.2s;
+}
+
+.header_nav_item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background-color: black;
+  transform: translateY(100%);
+  transition: all 0.2s;
+  z-index: -1;
+}
+
+.header_nav_item:hover::before {
+  transform: translateY(0);
+}
+
+.header_nav_item:hover {
+  color: orange;
+}
+
+.home {
+  display: flex;
+  min-height: 88vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa50080;
+}
+
+.carrosel {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  min-height: 86vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.image_1, .image_2, .image_3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+
+.button {
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.button button {
+  font-size: 100px;
+  padding: 0 1rem;
+  background-color: orange;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #ffa500cc;
+}
+
+.image_1 img, .image_2 img, .image_3 img {
+  width: 810px;
+}
+
+.image_1 {
+  transform: translateX(-100%);
+}
+
+.image_2 {
+  left: 20%;
+}
+
+.image_3 {
+  transform: translateX(-100%);
+}
+
+.left {
+  left: 10%;
+  top: 40%;
+}
+
+.right {
+  right: 10%;
+  top: 40%;
+}

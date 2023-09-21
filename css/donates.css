@@ -1,0 +1,32 @@
+.donates {
+  min-height: 88vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  background-image: url(../images/donates.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.donates div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  font-family: sans-serif;
+}
+
+.donates div h1 {
+  margin-bottom: 1rem;
+}
+
+.donates div img {
+  margin-top: 2rem;
+  width: 100px;
+}

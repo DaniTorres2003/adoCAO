@@ -1,0 +1,41 @@
+.contact {
+  min-height: 88vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  background-image: url(../images/contato.jpg);
+  background-size: cover;
+  background-position: 0% 20%;
+}
+
+.contact div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  font-family: sans-serif;
+}
+
+.contact div h1 {
+  margin-bottom: 1rem;
+}
+
+.contact div p {
+  margin-bottom: 2rem;
+}
+
+.contact div input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 80%;
+  outline: none;
+}
+#mensagem {
+  padding-bottom: 5rem;
+}

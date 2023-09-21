@@ -1,0 +1,26 @@
+.about {
+  min-height: 88vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  background-image: url(../images/bg_image.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.about div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  font-family: sans-serif;
+}
+
+.about div h1 {
+  margin-bottom: 1rem;
+}
