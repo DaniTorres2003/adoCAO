@@ -39,3 +39,19 @@
 #mensagem {
   padding-bottom: 5rem;
 }
+
+@media (max-width: 900px) {
+  .contact {
+    background-position: 70%;
+  }
+
+  .contact div {
+    width: 50%;
+    margin-left: 1rem;
+  }
+
+  .contact div input {
+    margin-left: 0;
+    width: 100%;
+  }
+}

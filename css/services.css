@@ -24,3 +24,9 @@
 .services div h1 {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 900px) {
+  .services div {
+    width: 80%;
+  }
+}

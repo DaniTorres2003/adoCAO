@@ -7,20 +7,30 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/about.css">
   <link rel="shortcut icon" href="../images/Logo_Puro.ico" type="image/x-icon">
+
+  <script defer src="../js/navbar.js"></script>
+  <script defer src="../js/isActive.js"></script>
 </head>
 <body>
   <header>
+    <div class="hamburguer_button resp_button" tabindex="0" onclick="toggleNavbar()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <div class="header_logo">
       <a href="/"><img src="../images/LOGO.png" alt="">
       </a>
     </div>
 
-    <div class="header_nav">
-      <a href="/" class="header_nav_item">Início</a>
-      <a href="about.html" class="header_nav_item">Quem Somos</a>
-      <a href="./services.html" class="header_nav_item">Serviços</a>
-      <a href="./donates.html" class="header_nav_item">Doações</a>
-      <a href="./contact.html" class="header_nav_item">Contato</a>
+    <div class="header_nav" id="header_nav">
+      <span class="close_button resp_button" tabindex="0" onclick="closeNavbar()">X</span>
+      <a href="/" class="header_nav_item" id="one">Início</a>
+      <a href="about.html" class="header_nav_item" id="two">Quem Somos</a>
+      <a href="./services.html" class="header_nav_item" id="three">Serviços</a>
+      <a href="./donates.html" class="header_nav_item" id="four">Doações</a>
+      <a href="./contact.html" class="header_nav_item" id="five">Contato</a>
     </div>
   </header>
 

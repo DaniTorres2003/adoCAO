@@ -24,3 +24,9 @@
 .about div h1 {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 900px) {
+  .about div {
+    width: 80%;
+  }
+}

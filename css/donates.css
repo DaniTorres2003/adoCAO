@@ -30,3 +30,13 @@
   margin-top: 2rem;
   width: 100px;
 }
+
+@media (max-width: 900px) {
+  .donates div {
+    margin-top: 0;
+  }
+
+  .donates {
+    background-position: 58%;
+  }
+}
